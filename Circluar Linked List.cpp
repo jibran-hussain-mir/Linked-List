@@ -16,7 +16,7 @@ void create()
 		for(int i=0;i<n;i++)
 			{
 				struct Node *temp=(struct Node *)malloc(sizeof(struct Node));
-				printf("Enter data for Node %d : ",i+1);
+				printf("Enter the data for Node %d : ",i+1);
 				scanf("%d",&temp->data);
 				if(head==NULL)
 					{
