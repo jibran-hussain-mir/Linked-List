@@ -11,7 +11,7 @@ struct Node
 void create()
 	{
 		int n;
-		printf("Enter the number of nodes : ");
+		printf("Enter the number of nodes  you want to insert in a linked list: ");
 		scanf("%d",&n);
 		for(int i=0;i<n;i++)
 			{
